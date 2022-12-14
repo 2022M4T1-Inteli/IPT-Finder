@@ -32,6 +32,7 @@
     background: rgba(8, 87, 134, 0.83);
     border-radius: 20px;
     color: white;
+<<<<<<< HEAD:src/Aplicação web/Src/Frontend/CSS/mike2.css
 
 }
 
@@ -101,8 +102,8 @@ h2{
     position: absolute;
     width: 71px;
     height: 75px;
-    left: 289px;
-    top: 202px;
+    left: 300px;
+    top: 220px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
@@ -114,8 +115,8 @@ h2{
     position: absolute;
     width: 71px;
     height: 75px;
-    left: 289px;
-    top: 318px;
+    left: 300px;
+    top: 340px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
@@ -127,8 +128,8 @@ h2{
     position: absolute;
     width: 71px;
     height: 75px;
-    left: 289px;
-    top: 434px;
+    left: 300px;
+    top: 460px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
@@ -140,8 +141,8 @@ h2{
     position: absolute;
     width: 71px;
     height: 75px;
-    left: 289px;
-    top: 548px;
+    left: 300px;
+    top: 570px;
     right: 300px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
@@ -153,8 +154,8 @@ h2{
     position: absolute;
     width: 71px;
     height: 75px;
-    left: 289px;
-    top: 665px;
+    left: 300px;
+    top: 690px;
     background: rgba(254, 58, 12, 0.38);
     border-radius: 15px;
     align-items: center;
@@ -230,8 +231,8 @@ h2{
     position: absolute;
     font-size: 32px;
     border: 0;
-    right: 40px;
-    top: 226px;
+    right: 30px;
+    top: 240px;
     background: transparent;
 }
 
@@ -240,7 +241,7 @@ h2{
     font-size: 32px;
     border: 0;
     right: 40px;
-    top: 339px;
+    top: 365px;
     background: transparent;
 }
 
@@ -248,8 +249,8 @@ h2{
     position: absolute;
     font-size: 32px;
     border: 0;
-    right: 40px;
-    top: 452px;
+    right: 25px;
+    top: 480px;
     background: transparent;
 }
 
@@ -257,8 +258,8 @@ h2{
     position: absolute;
     font-size: 32px;
     border: 0;
-    right: 40px;
-    top: 569px;
+    right: 25px;
+    top: 590px;
     background: transparent;
 }
 
@@ -266,7 +267,10 @@ h2{
     position: absolute;
     font-size: 32px;
     border: 0;
-    right: 40px;
-    top: 685px;
+    right: 25px;
+    top: 710px;
     background: transparent;
 }
+=======
+}
+>>>>>>> fe980d94a124872c39d27526c5756b7d6b1ba7f6:src/Aplicação web/Src/Frontend/CSS/MenuLateral.css

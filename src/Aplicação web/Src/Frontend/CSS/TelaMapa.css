@@ -1,8 +1,8 @@
 body
 {
     background-image: url('../Imagens/Mapa.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
     margin: 0%;
     padding: 0%;
 }
@@ -29,8 +29,8 @@ header
 }
 
 .botlupa{
-    position: absolute;
-    right: 15px;
+    position: relative;
+    right: 50px;
     border: 0;
     width: 50px;
     height: 50px;
@@ -46,12 +46,6 @@ header
     right: 15px;
     bottom: 14px;
 }
-
-.testeh1{
-    margin: 0px;
-    width: 300px;
-}
-
 
 .pesq1
 {
@@ -97,29 +91,23 @@ header
     top: 402px;
 }
 
-.ping2{
-    position: absolute;
-    left: 153px;
-    top: 602px;
+.tools{
+background-color: #E83F17;
+padding: 15px;
+position: fixed;
+bottom: 30px;
+right: 30px;
+width: 60px;
+height: 60px;
+border-radius: 50px;
 }
 
-.ping3{
-    position: absolute;
-    left: 113px;
-    top: 202px;
+.tools img{
+width: 45px;
+height: 45px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 7px;
+
 }
-
-.ping4{
-    position: absolute;
-    left: 233px;
-    top: 412px;
-}
-
-.ping5{
-    position: absolute;
-    left: 93px;
-    top: 752px;
-}
-
-
-
