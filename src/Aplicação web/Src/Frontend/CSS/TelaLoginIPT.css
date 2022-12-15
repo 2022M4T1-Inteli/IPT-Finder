@@ -1,6 +1,5 @@
 body{
-    background-image: url('/Users/thomasbrand/Documents/GitHub/Projeto3/src/Aplicação web/Src/Frontend/Telas IPT/cientista_1.png');
-    background-repeat: no-repeat;
+    background-image: url(../Imagens/cientista_1.png);
     background-size: cover;
 }
 
@@ -17,7 +16,7 @@ body{
     border-radius: 25px;
 }
 
-.email{
+.credenciais{
     position: absolute;
     border-radius: 25px;
     border: 0;
@@ -39,11 +38,10 @@ body{
     top: 190px;
 }
     
-h1{
-    font-family: 'Inter';
+.titulo{
     font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 35px;
     line-height: 36px;
     text-align: center;
     color: white;
@@ -55,7 +53,7 @@ h1{
     position: absolute;
     font-style: normal;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 27px;
     line-height: 30px;
     text-align: center;
     color: white;
@@ -83,3 +81,7 @@ h1{
     top: 364px;
 }
 
+.entrar{
+    color: white;
+    font-weight: 600px;
+}
