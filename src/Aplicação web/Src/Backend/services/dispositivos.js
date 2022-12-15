@@ -16,30 +16,46 @@ class Dispositivo {
       filename: "./database/dispositivos.db",
       driver: sqlite3.Database,
     });
-    this.data_hora = "2022-11-23 18:58:27";
     // Inserindo as informações no db
-    console.log(this.codigo_patrimonio);
-    const inserction = await db.run(
-      "INSERT INTO equipamentos (nome, predio, sala, data_hora, codigo_patrimonio) VALUES (?,?,?,CURRENT_TIMESTAMP, ?)",
-      [this.nome, this.predio, this.sala, this.codigo_patrimonio]
+    const veryDispositivo = await db.run(
+      "SELECT * FROM equipamentos WHERE codigo_patrimonio = ?",
+      [this.codigo_patrimonio]
     );
-    await db.close();
-
-    // Checando se todas as informações foram inseridas no db
-    if (inserction.changes === 0) {
-      const error = {
-        type: "error",
-        message: "Database error",
+    if (veryDispositivo[0]) {
+      const inserction = await db.run(
+        "UPDATE equipamentos SET nome = ?, predio = ?, sala = ?, data_hora = CURRENT_TIMESTAMP) WHERE codigo_patrimonio = ?",
+        [this.nome, this.predio, this.sala, this.codigo_patrimonio]
+      );
+      await db.close();
+      const sucess = {
+        type: "sucess",
+        message: "sucess",
       };
-      return error;
+
+      return sucess;
+    } else {
+      const inserction = await db.run(
+        "INSERT INTO equipamentos (nome, predio, sala, data_hora, codigo_patrimonio) VALUES (?,?,?,CURRENT_TIMESTAMP, ?)",
+        [this.nome, this.predio, this.sala, this.codigo_patrimonio]
+      );
+      await db.close();
+
+      // Checando se todas as informações foram inseridas no db
+      if (inserction.changes === 0) {
+        const error = {
+          type: "error",
+          message: "Database error",
+        };
+        return error;
+      }
+
+      const sucess = {
+        type: "sucess",
+        message: "User created with sucess",
+      };
+
+      return sucess;
     }
-
-    const sucess = {
-      type: "sucess",
-      message: "User created with sucess",
-    };
-
-    return sucess;
   }
 
   async listarTodos() {

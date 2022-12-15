@@ -4,17 +4,6 @@ body{
     background-size: cover;
 }
 
-nav{
-    position: absolute;
-    width: 100%;
-    height: 88px;
-    left: 0px;
-    top: 0px;
-    display: flex;
-    background: #ECF8FF;
-    align-items: center;
-    justify-content: center;
-    }
 
 .inicio{
     position: absolute;
@@ -94,12 +83,3 @@ h1{
     top: 364px;
 }
 
-.logo{
-
-    width: 150px;
-    height: 60px;
-    left: 120px;
-
-    
-    background: #ECF8FF;
-}

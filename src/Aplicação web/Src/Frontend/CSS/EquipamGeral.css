@@ -4,13 +4,7 @@ body {
     margin: 0;
 }
 
-.logo {
-    width: 97px;
-    height: 39px;
-    left: 253px;
-    padding-left: 200px;
-    justify-content: center;
-}
+
 
 .objeto {
     font-family: 'Inter';
@@ -64,12 +58,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-header {
-    background-color: #ECF8FF;
-    left: 110px;
-    text-align: center;
-}
-
 
 
 h1 {
@@ -114,14 +102,6 @@ h2 {
     font-weight: bold
 }
 
-
-.menu {
-    border: 0;
-    background-color: rgb(225, 243, 255);
-    display: flex;
-    height: 40px;
-    width: 40px;
-}
 
 .cabe {
     display: flex;
@@ -184,17 +164,17 @@ h2 {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
     }
     
     .tools img{
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7px;
+    margin-top: 3px;
     
     }

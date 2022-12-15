@@ -1,17 +1,13 @@
 body
 {
     background-color: rgb(241, 241, 241);
-    font: normal 15 pt inter;
-    margin: 0%;
-    padding: 0%;
+
 }
 header
 {
-    color: rgb(0, 0, 0);
-    text-align: center;
+    
     background-color: rgb(225, 243, 255);
-    margin-bottom: 15px;
-    height: 70px;
+ 
    
 
 }
@@ -56,14 +52,7 @@ section
     line-height: 24.2px;
     color: black;
 }
-.logo
-{
-    width: 97px;
-    height: 39px;
-    left: 253px;
-    padding-left: 200px;
-    justify-content: center;
-}
+
 .und
 {
     text-decoration: underline;
@@ -193,11 +182,4 @@ section
     align-items: center;
     justify-content: center;
     height: 70px;
-}
-.menu {
-    border: 0;
-    background-color: rgb(225, 243, 255);
-    display: flex;
-    height: 40px;
-    width: 40px;
 }

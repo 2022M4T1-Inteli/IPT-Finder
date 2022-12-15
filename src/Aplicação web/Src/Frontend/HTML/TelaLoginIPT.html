@@ -9,21 +9,97 @@
     <link rel="stylesheet" href="../CSS/TelaLoginIPT.css">
 
     <title>Tela Login IPT</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/css-pro-layout@1.1.0/dist/css/css-pro-layout.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css">
 </head>
 
-<nav> 
-    <img class="logo" src="../Imagens/IPT  1.png" alt="Logo IPT"> 
-</nav>
-
 <body>
-        <div class="inicio">
-    
-                <h1>Faça seu Login</h1>
-                <input class="email" placeholder="Email">
-                <input class="senha"  placeholder="Senha">
-                <button class="botao">Entrar</button>
-                <button class="cadastre">Cadastre-se</button>  
-       </div>
- </body>
+    <div class="layout has-sidebar fixed-sidebar fixed-header">
+        <aside id="sidebar" class="sidebar break-point-lg has-bg-image">
+            <div class="sidebar-layout">
+                <div class="sidebar-header">
+                    <span style="
+                      text-transform: uppercase;
+                      font-size: 15px;
+                      letter-spacing: 3px;
+                      font-weight: bold;
+                    ">Finders</span>
+                </div>
+                <div class="sidebar-content">
+                    <nav class="menu open-current-submenu">
+                        <ul>
+
+                            <li class="menu-item">
+                                <a href="#">
+                                    <span class="menu-title">Cadastrar novo equipamento</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    <span class="menu-title">Monitorar equipamentos</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    <span class="menu-title">Excluir equipamentos</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    <span class="menu-title">Cadastrar novas salas</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    <span class="menu-title">Excluir salas</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    <span class="menu-title">Excluir equipamentos</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </aside>
+        <div id="overlay" class="overlay"></div>
+        <div class="layout">
+            <header class="header">
+                <a id="btn-collapse" href="#">
+                    <i class="ri-menu-line ri-xl"></i>
+                </a>
+                <a id="btn-toggle" href="#" class="sidebar-toggler break-point-lg">
+                    <i class="ri-menu-line ri-xl"></i>
+                </a>
+                <img class="logo" src="../Imagens/logo.png">
+            </header>
+            <main class="content">
+
+                <div class="inicio">
+
+                    <h1>Faça seu Login</h1>
+                    <input class="email" placeholder="Email">
+                    <input class="senha" placeholder="Senha">
+                    <button class="botao">Entrar</button>
+                    <button class="cadastre">Cadastre-se</button>
+                </div>
+
+
+            </main>
+            <div class="overlay"></div>
+        </div>
+    </div>
+
+
+</body>
+<script
+    src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="../JavaScript/script.js"></script>
 
 </html>

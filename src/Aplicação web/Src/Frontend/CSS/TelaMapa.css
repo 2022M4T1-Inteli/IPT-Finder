@@ -1,23 +1,22 @@
-body
-{
+body {
     background-image: url('../Imagens/Mapa.png');
     background-repeat: no-repeat !important;
     background-size: cover !important;
     margin: 0%;
     padding: 0%;
 }
-header
-{
+
+header {
     color: rgb(0, 0, 0);
     text-align: center;
     background-color: rgb(225, 243, 255);
     margin-bottom: 15px;
     height: 70px;
-   
+
 
 }
 
-.input{
+.input {
     width: 350px;
     height: 40px;
     left: 3px;
@@ -28,8 +27,8 @@ header
     text-align: center;
 }
 
-.botlupa{
-    position: relative;
+.botlupa {
+    position: absolute;
     right: 50px;
     border: 0;
     width: 50px;
@@ -38,76 +37,96 @@ header
     background-color: transparent;
 }
 
-.lupa{
-    position: absolute;
+.lupa {
+    position: relative;
     height: 33px;
     border-radius: 0px;
     border: 0;
-    right: 15px;
-    bottom: 14px;
+    right: -30px;
 }
 
-.pesq1
-{
+.pesq1 {
     width: 100%;
     display: flex;
     justify-content: center;
-    
+
 }
-.comp
-{
+
+.comp {
     font-size: 25px;
     line-height: 24.2px;
     color: black;
 }
-.foto
-{
+
+.foto {
     width: 97px;
     height: 39px;
     text-align: end;
     margin-top: 12px;
     margin-left: 270px;
 }
-.und
-{
+
+.und {
     text-decoration: underline;
 }
-.img
-{
+
+.img {
     padding: 8px;
     width: 280px;
-    
+
 }
-.foto2
-{
+
+.foto2 {
     padding: 8px;
     width: 50px;
     margin-left: 25px;
 }
 
-.ping1{
+.ping1 {
     position: absolute;
     left: 213px;
     top: 402px;
 }
 
-.tools{
-background-color: #E83F17;
-padding: 15px;
-position: fixed;
-bottom: 30px;
-right: 30px;
-width: 60px;
-height: 60px;
-border-radius: 50px;
+.tools {
+    background-color: #E83F17;
+    padding: 15px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
 }
 
-.tools img{
-width: 45px;
-height: 45px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 7px;
+.tools img {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
 
+.container-input {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 100% !important;
+    height: 40px;
+    left: 3px;
+    border-radius: 20px;
+    border: 0;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.botlupa {
+    border: 0;
 }
