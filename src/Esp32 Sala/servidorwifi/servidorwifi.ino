@@ -1,5 +1,5 @@
 #include <WiFi.h> //Biblioteca 
-const char* ssid = "Finders-p05-nomedasala"; //Define o nome do ponto de wifi
+const char* ssid = "Finders-p05-nomedasala"; //Define o nome do ponto de wifi, sendo a primeira parte a tag que identificará a rede, a segunda parte o código do prédio, e a última o nome da sala
 const char* senha = "findersipt"; //Define a senha do wifi
  
 WiFiServer sv(80); 
